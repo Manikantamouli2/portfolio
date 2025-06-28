@@ -1,0 +1,108 @@
+
+body
+{
+    background-color: rgb(20, 0, 30);
+}
+
+.navbar {
+    background-color: #333;
+  }
+
+  /* Brand styling */
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* Nav link base style */
+  .nav-link {
+    color: #ddd !important;
+    margin-right: 15px;
+    transition: 0.3s;
+  }
+
+  /* Hover effect */
+  .nav-link:hover {
+    color: #fff !important;
+  }
+
+  /* Active link style */
+  .nav-link.active {
+    color: #fff !important;
+    text-decoration: underline;
+  }
+
+  /* Adjust spacing on small screens if needed */
+  @media (max-width: 991px) {
+    .navbar-nav .nav-link {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  .circular-image-container{
+    width:200px;
+    height:200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circular-image{
+width:120%;
+height: auto;
+display: block;
+}
+.name{
+    color: #fff;
+}
+
+.title{
+    color: #4fffb0;
+}
+
+.social_links{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_image{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+.jumbtron{
+    background-color: #002244;
+    padding:20px;
+    border-radius:10px;
+}
+
+
+.display4 {
+color: #eef3f8;
+font-size: 24px;
+}
+
+.lead{
+    font-size: 18px;
+    color:#28a745;
+}
+
+.form-container{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #090909;
+}
+/* Container for the form section */
+
+
+
