@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nckzq=!(apia@_sum*=ltl^f6i7dhyf3kml^y-oph6c!v89)+_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mouliresume'.onrender.com']
+ALLOWED_HOSTS = ['mouliresume1'.onrender.com']
 
 
 # Application definition
